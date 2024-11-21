@@ -1,0 +1,87 @@
+/* General styles */
+html {
+    background-color: #2c2c2c;
+    font-family: sans-serif;
+}
+
+header {
+    margin: 50px;
+    font-size: 30px;
+}
+
+table {
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40rem;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+
+th, td { 
+    border: 1px solid black; /* Add border to all cells */ 
+    padding: 8px; /* Add padding to table cells */ 
+}
+
+.controls, .items, .optionsMenu {
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 40rem;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background: white;    
+}
+
+/* Form styles */
+#foodForm {
+    display: none;
+    margin: 2rem auto;
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background: white;
+}
+
+/* Grid layout for form rows */
+form.row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+/* Label alignment and spacing */
+label {
+    margin-right: 10px;
+    min-width: 100px; /* Adjust this width to align labels uniformly */
+    text-align: right; /* Align text to the right for better spacing */
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="number"] {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+button[type="submit"],
+button[type="button"] {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+tfoot { 
+    border-top: 2px solid black; /* Separate totals with a border */ 
+}
+
